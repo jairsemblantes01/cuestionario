@@ -36,6 +36,106 @@ export default {
     return {
       preguntas: [
         {
+          pregunta: "Los sistemas empresariales generan valor al negocio como los que se indica en la lista EXCEPTO:",
+          opciones: [
+            "Permiten evaluar el desempeño organizacional",
+            "Utilizan información para crear pronósticos mas precisos de venta y producción",
+            "Estandarizan las prácticas de negocio y los datos",
+            "Posibilitan el mayor rendimiento de los activos de infraestructura"
+          ],
+          respuestaCorrecta: 3
+        },
+        {
+          pregunta: "El ERP nos ayuda a responder ciertas preguntas universales de la producción. Seleccione cual de ellas no es la correcta",
+          opciones: [
+            "Que es lo que tengo de material",
+            "Donde voy a vender el producto",
+            "Cuanto tiempo toma fabricar",
+            "Que necesito producir",
+          ],
+          respuestaCorrecta: 1
+        },
+        {
+          pregunta: "El tipo de software de cadena de suministro que ayuda a gestionar los pasos de la cadena se denomina",
+          opciones: [
+            "SCM de planeación",
+            "SCM de automatización",
+            "SCM de ejecución",
+            "SCM de operación"
+          ],
+          respuestaCorrecta: 2
+        },
+        {
+          pregunta: "Los sistemas de planificación de recursos empresariales ERP usualmente recogen una gran cantidad de datos de las áreas de la empresa para",
+          opciones: [
+            "Disponerlos en módulos para establecer las interfaces necesarias con el resto de sistemas",
+            "Ponerlos a disposición de las aplicaciones que soportan las actividades de negocio internas",
+            "Extender la relación entre ellos y permitir su explotación analítica",
+            "Dar soporte a las aplicaciones que soportan la oferta y la demanda externa",
+          ],
+          respuestaCorrecta: 1
+        },
+        {
+          pregunta: "Entre los conceptos asociados a la cadena de suministro tenemos",
+          opciones: [
+            "Permitir convertir este flujo en un proceso eficiente enfocado en la satisfacción del cliente",
+            "Son sistemas que permiten una toma de decisiones mas efectiva sobre todo en el nivel gerencial",
+            "Permite recolectar información de varios departamentos y ponerlos a disposición de los procesos de negocio",
+            "Son sistemas flexibles que permiten adaptar con rapidez la forma de trabajar y los procesos de negocio"
+          ],
+          respuestaCorrecta: 0
+        },
+        {
+          pregunta: "Uno de los efectos nocivos en una mala cadena de suministro es el efecto látigo. Este fenómeno se refiere a",
+          opciones: [
+            "La información de la demanda de un producto se distorsiona cuando viaja del consumidor hasta llegar al proveedor fabricante",
+            "La información de la demanda de un producto se distorsiona cuando el fabricante no conoce los planes de aprovisionamiento del proveedor",
+            "La información de la demanda de un producto se distorsiona cuando viaja desde el productor hacia el distribuidor y luego el cliente",
+            "La información de la demanda de un producto se distorsiona cuando la demanda tiene altos niveles de variabilidad"
+          ],
+          respuestaCorrecta: 0
+        },
+        {
+          pregunta: "El software de cadena de suministro que permite la planificación de la cadena permite a la organización:",
+          opciones: [
+            "Administrar eficazmente el flujo de productos en el entorno",
+            "Mejorar la administración de materiales y las operaciones logísticas",
+            "Generar pronósticos de abastecimiento más precisos",
+            "Generar pronósticos de la demanda óptimos"
+          ],
+          respuestaCorrecta: 3
+        },
+        {
+          pregunta: "Una deficiencia en las organizaciones es gestionar inadecuadamente la reserva de seguridad. Según la definición correcta, ésta actúa como",
+          opciones: [
+            "Un almacén de reserva para gestionar los materiales críticos para la producción",
+            "Un almacén de reserva para compensar la falta de flexibilidad de la cadena",
+            "Un almacén dinámico para flujos de entrada y salida de productos",
+            "Un almacén virtual para satisfacer los pedidos de clientes"
+          ],
+          respuestaCorrecta: 1
+        },
+        {
+          pregunta: "El ERP puede atacar varios problemas en una empresa, sin embargo de los discutidos en clase seleccione cual seria la mejor aproximación",
+          opciones: [
+            "Gestión no transaccional con los clientes",
+            "Control de inventarios y flujo de caja",
+            "Abastecimiento en la cadena de distribución",
+            "Automatización del flujo de trabajo"
+          ],
+          respuestaCorrecta: 3
+        },
+        {
+          pregunta: "Las compañías deberían aprovechar al máximo los beneficios que trae el software empresarial ERP para ello se aconseja",
+          opciones: [
+            "Adaptar los procesos del ERP a través de personalizaciones que se ajusten a las necesidades",
+            "Durante la implementación se puede re-escribir para del software para apoyar sus procesos de negocio",
+            "Evaluar sus prácticas de negocio versus estándares reconocidos como por ejemplo las normas ISO",
+            "Adaptar su forma de trabajo a los procesos de negocios definidos en el software"
+          ],
+          respuestaCorrecta: 3
+        },
+        {
           pregunta: "Una de las variantes en las que se interpreta La ley de Moore nos dice:",
           opciones: [
             "El poder de computo se duplica cada 18 meses",
