@@ -15,6 +15,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  server: {
+    port: process.env.PORT || 3009,
+    host: '0.0.0.0'
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
