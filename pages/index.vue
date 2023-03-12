@@ -206,7 +206,6 @@ export default {
           respuestaCorrecta: 1
         },
       ],
-
       respuestas: [],
       calificado: false
     }
