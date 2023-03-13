@@ -294,15 +294,6 @@ export default {
           respuestaCorrecta: 1,
         },
         {
-          pregunta: "La infraestructura como servicio IaaS se entiende como aquella forma de infraestructura en la nube que:",
-          opciones: [
-            "Sirve para desarrollar aplicaciones a través de herramientas de programación hospedadas",
-            "Usan recursos de computo como procesamiento y almacenamiento para operar sus sistemas informáticos",
-            "Utilizan prácticas y tecnologías que minimizan el impacto sobre el entorno"
-          ],
-          respuestaCorrecta: 1,
-        },
-        {
           pregunta: "La plataforma como servicio PAAS se entiende como aquella forma de infraestructura en la nube que:",
           opciones: [
             "Sirve para desarrollar aplicaciones a través de herramientas de programación hospedadas",
