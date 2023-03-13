@@ -6,3 +6,5 @@ services:
       - "4040:4040"
     expose:
       - 4040
+    environment:
+      - PORT=4040
