@@ -280,7 +280,13 @@ export default {
       calificado: false
     }
   },
+  mounted() {
+    this.preguntas = this.preguntas.sort(this.aleatorio)
+  },
   methods: {
+    aleatorio() {
+  return Math.random() - 0.5;
+},
     calificar() {
       // Calcular la calificación
       const numCorrectas = this.preguntas.reduce((total, pregunta, index) => {
