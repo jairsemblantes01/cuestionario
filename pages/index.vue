@@ -400,7 +400,78 @@ export default {
             "Es resistente a errores que surjan en la red o en el conjunto de nodos"
           ],
           respuestaCorrecta: 3
+        },
+        {
+          pregunta: "Los sistemas de planificación de recursos empresariales ERP usualmente recogen una gran cantidad de datos de las áreas de la empresa para",
+          opciones: [
+            "Optimizar la gestión de inventarios",
+            "Centralizar las operaciones financieras",
+            "Ponerlos a disposición de las aplicaciones que soportan las actividades de negocio internas",
+            "Realizar análisis de mercado"
+          ],
+          respuestaCorrecta: 2
+        },
+        {
+          pregunta: "Los sistemas empresariales generan valor al negocio como los que se indica en la lista EXCEPTO:",
+          opciones: [
+            "Mejorar la toma de decisiones",
+            "Optimizar los procesos internos",
+            "Posibilitan el mayor rendimiento de los activos de infraestructura",
+            "Aumentar la eficiencia operativa"
+          ],
+          respuestaCorrecta: 2
+        },
+        {
+          pregunta: "Entre los conceptos asociados a la cadena de suministro tenemos",
+          opciones: [
+            "Maximizar la producción de la empresa",
+            "Reducir los costos de producción",
+            "Permitir convertir este flujo en un proceso eficiente enfocado en la satisfacción del cliente",
+            "Mejorar la calidad de los productos"
+          ],
+          respuestaCorrecta: 2
+        },
+        {
+          pregunta: "El software de cadena de suministro que permite la planificación de la cadena permite a la organización:",
+          opciones: [
+            "Controlar el flujo de información",
+            "Minimizar los costos de producción",
+            "Mejorar la calidad de los productos",
+            "Generar pronósticos de la demanda óptimos"
+          ],
+          respuestaCorrecta: 3
+        },
+        {
+          pregunta: "Uno de los efectos complejos de las aplicaciones empresariales es el denominado 'costo por cambiar', esto implica:",
+          opciones: [
+            "Una relación de equilibrio en costo con los proveedores de tecnología empresarial",
+            "El costo por un potencial cambio de aplicación genera dependencia",
+            "El costo por el cambio de aplicación implica una evaluación de calidad",
+            "El costo de cambio en la funcionalidad del software depende del proveedor"
+          ],
+          respuestaCorrecta: 1
+        },
+        {
+          pregunta: "En estos últimos años se han desarrollado varias formas de modelos de negocio, ingresos y tipos de e-commerce. En cuanto al primero (modelo de negocio), aquel relacionado con la distribución de información digital en línea a precios accesibles y de fácil reproducción en varios dispositivos se relaciona con:",
+          opciones: [
+            "Modelo de suscripción",
+            "Modelo de publicidad en línea",
+            "Modelo de intermediación",
+            "Proveedor de contenido"
+          ],
+          respuestaCorrecta: 3
+        },
+        {
+          pregunta: "¿Cuál es una ventaja que ofrecen las divisas virtuales?",
+          opciones: [
+            "Aceleran el proceso de transacción",
+            "Eliminan por completo los costos de transacción",
+            "Son respaldadas por una autoridad central",
+            "Proveen confianza entre los actores"
+          ],
+          respuestaCorrecta: 3
         }
+
       ],
       respuestas: [],
       calificado: false
