@@ -274,7 +274,113 @@ export default {
             ingresos, al igual que la satisfacción y la retención del cliente"
           ],
           respuestaCorrecta: 0,
-        }
+        },
+        {
+          pregunta: "La plataforma como servicio PAAS se entiende como aquella forma de infraestructura en la nube que:",
+          opciones: [
+            "Sirve para desarrollar aplicaciones a través de herramientas de programación hospedadas",
+            "Usan recursos de computo como procesamiento y almacenamiento para operar sus sistemas informáticos",
+            "Utilizan prácticas y tecnologías que minimizan el impacto sobre el entorno"
+          ],
+          respuestaCorrecta: 0,
+        },
+        {
+          pregunta: "La infraestructura como servicio IaaS se entiende como aquella forma de infraestructura en la nube que:",
+          opciones: [
+            "Sirve para desarrollar aplicaciones a través de herramientas de programación hospedadas",
+            "Usan recursos de computo como procesamiento y almacenamiento para operar sus sistemas informáticos",
+            "Utilizan prácticas y tecnologías que minimizan el impacto sobre el entorno"
+          ],
+          respuestaCorrecta: 1,
+        },
+        {
+          pregunta: "La plataforma como servicio PAAS se entiende como aquella forma de infraestructura en la nube que:",
+          opciones: [
+            "Sirve para desarrollar aplicaciones a través de herramientas de programación hospedadas",
+            "Usan recursos de computo como procesamiento y almacenamiento para operar sus sistemas informáticos",
+            "Utilizan prácticas y tecnologías que minimizan el impacto sobre el entorno"
+          ],
+          respuestaCorrecta: 2,
+        },
+        {
+          pregunta: "La infraestructura como servicio IaaS se entiende como aquella forma de infraestructura en la nube que:",
+          opciones: [
+            "Sirve para desarrollar aplicaciones a través de herramientas de programación hospedadas",
+            "Usan recursos de computo como procesamiento y almacenamiento para operar sus sistemas informáticos",
+            "Utilizan prácticas y tecnologías que minimizan el impacto sobre el entorno"
+          ],
+          respuestaCorrecta: 1,
+        },
+        {
+          pregunta: "La plataforma como servicio PAAS se entiende como aquella forma de infraestructura en la nube que:",
+          opciones: [
+            "Sirve para desarrollar aplicaciones a través de herramientas de programación hospedadas",
+            "Usan recursos de computo como procesamiento y almacenamiento para operar sus sistemas informáticos",
+            "Utilizan prácticas y tecnologías que minimizan el impacto sobre el entorno"
+          ],
+          respuestaCorrecta: 0,
+        },
+        {
+          pregunta: "¿Qué beneficios ofrece la plataforma como servicio (PaaS) en la nube?",
+          opciones: [
+            "Permite almacenar grandes cantidades de información de manera eficiente.",
+              "Ofrece soluciones de seguridad avanzadas para proteger los datos de los usuarios.",
+              "Facilita el desarrollo de aplicaciones a través de herramientas de programación hospedadas.",
+            "Sirve para desarrollar aplicaciones a través de herramientas de programación\n" +
+            "hospedadas."
+          ],
+          respuestaCorrecta: 3,
+        },
+          {
+            pregunta: "Que es el comercio electrónico:",
+            opciones: [
+              "Gestionar la relación con los consumidores de servicios.",
+              "Son transacciones comerciales con capacidad digital entre organizaciones e individuos.",
+              "Alinea los servicios ofrecidos de los que depende la organización.",
+              "Sirve de guía a la hora de establecer y priorizar objetivos"
+            ],
+            respuestaCorrecta: 1
+          },
+          {
+            pregunta: "Características de la tecnología del comercio electrónico:",
+            opciones: [
+              "Gestión de cambios, estrategia, diseño, planeación, entregables, despliegues.",
+              "Planificación de la evaluación, estrategia, diseño, planeación, Enfoques Técnicos.",
+              "Estrategia, diseño, planeación, enfoques técnicos, planeación, entregables, despliegues.",
+              "Ubicuidad, Alcance Global, Estándares Universales, Riqueza, Interactividad, Densidad de la información"
+            ],
+            respuestaCorrecta: 3
+          },
+          {
+            pregunta: "Tipos de Comercio electrónico:",
+            opciones: [
+              "Negocio a consumidor(B2C), Negocio a negocio(B2B), Consumidor a consumidor(C2C).",
+              "Negocio a producto(B2P), Negocio a consumidor(B2C), Bodega a consumidor(C2C).",
+              "Producto a consumidor(P2C), Bodega a negocio(B2B), Bodega a consumidor(C2C).",
+              "Casa a consumidor(B2C), Negocio a negocio(B2B), Comercio a consumidor(C2C)"
+            ],
+            respuestaCorrecta: 0
+          },
+          {
+            pregunta: "¿Cuál de las siguientes no es una característica del comercio electrónico móvil (mcommerce) ?:",
+            opciones: [
+              "Capacidad multimedia limitada.",
+              "Publicidad inalámbrica.",
+              "Checar el presupuesto para equipo de toda la empresa.",
+              "Acceso a servicios de comercio en cualquier lugar."
+            ],
+            respuestaCorrecta: 2
+          },
+          {
+            pregunta: "Pasos para la creación de un sitio web de comercio electrónico:",
+            opciones: [
+              "Decisión de crear, presupuesto, construcción, hospedaje, publicidad, mantenimiento.",
+              "Definir el estado del objetivo, plan del programa, publicidad, mantenimiento.",
+              "Declaración de acciones, establecer principios y políticas, ejecutar estrategia",
+              "Requisitos de cumplimiento, acceso a las redes sociales, mantenimiento."
+            ],
+            respuestaCorrecta: 0
+          }
       ],
       respuestas: [],
       calificado: false
