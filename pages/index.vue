@@ -380,7 +380,27 @@ export default {
               "Requisitos de cumplimiento, acceso a las redes sociales, mantenimiento."
             ],
             respuestaCorrecta: 0
-          }
+          },
+        {
+          pregunta: "Las divisas virtuales son tecnologías disruptivas que ofrecen algunas ventajas, tales como:",
+          opciones: [
+            "Proveen confianza entre los actores",
+            "Promueven la centralización de las estructuras económicas",
+            "Garantizan la transacción",
+            "Tienen costos de transacción"
+          ],
+          respuestaCorrecta: 0
+        },
+        {
+          pregunta: "Los métodos de consenso son claves en el funcionamiento de una cadena de bloques. Cuál de las siguientes opciones es una función clave de los métodos de consenso?",
+          opciones: [
+            "Garantiza que al menos 1 minero honesto produce una salida válida",
+            "Permite confirmar la validez de la petición de transacción",
+            "Garantiza la integridad de la cadena",
+            "Es resistente a errores que surjan en la red o en el conjunto de nodos"
+          ],
+          respuestaCorrecta: 3
+        }
       ],
       respuestas: [],
       calificado: false
