@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  front:
+    image: jairum/cuestionario
+    ports:
+      - "4040:4040"
+    expose:
+      - 4040
