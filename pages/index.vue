@@ -381,7 +381,7 @@ export default {
             "Garantiza la integridad de la cadena",
             "Es resistente a errores que surjan en la red o en el conjunto de nodos"
           ],
-          respuestaCorrecta: 2
+          respuestaCorrecta: 3
         },
         {
           pregunta: "Los sistemas de planificación de recursos empresariales ERP usualmente recogen una gran cantidad de datos de las áreas de la empresa para",
