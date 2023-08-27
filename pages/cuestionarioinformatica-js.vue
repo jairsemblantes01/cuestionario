@@ -2,12 +2,8 @@
   <div style="display: flex; justify-content: center;">
     <div style="width: 900px; margin-top: 30px;  margin-bottom: 20px">
       <h1>CUESTIONARIO GESTION PROYECTOS</h1>
-      <div v-if="calificado">
-        <h2>Calificación: {{ calificacion }}/{{ preguntas.length }}</h2>
-      </div>
-      <button @click="reiniciar">Reiniciar cuestionario</button>
 
-      <div v-for="(pregunta, index) in preguntas" :key="index">
+      <div v-for="(pregunta, index) in preguntas" :key="index" v-if="!calificado">
         <h3>{{ pregunta.pregunta }}</h3>
         <ul>
           <li v-for="(opcion, i) in pregunta.opciones" :key="i">
@@ -498,6 +494,10 @@ export default {
     respuestaCorrecta(pregunta, opcionSeleccionada) {
       return pregunta.respuestaCorrecta === opcionSeleccionada
     }
+  },
+  mounted() {
+    // ordenar aleatoreamente las preguntas
+    this.preguntas = this.preguntas.sort(() => Math.random() - 0.5)
   }
 }
 </script>
