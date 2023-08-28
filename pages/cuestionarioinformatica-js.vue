@@ -465,9 +465,77 @@ export default {
             "Ningún"
           ],
           "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "Existen algunas características propias de un proyecto, tales como:",
+          "opciones": [
+            "Un producto es único e irrepetible, se lo produce progresivamente y requiere participación multidisciplinaria",
+            "Es temporal y finito, requiere una plataforma de software definida, su elaboración es progresiva",
+            "Necesariamente tiene incertidumbre, requiere operaciones rutinarias definidas, tiene inicio y fin definido",
+            "Su producto es único e irrepetible, requiere una plataforma de software definida, tiene inicio y fin definido"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "La gestión de portafolios da soporte a la dirección de la empresa para:",
+          "opciones": [
+            "Gestionar el alcance a los proyectos integrantes",
+            "Obtener beneficios y eficiencia que no se lograrían cuando los proyectos se gestionan de manera individual",
+            "Centralizar la gestión del riesgo agregado de todos los componentes",
+            "Planificar y elaborar información a lo largo del ciclo de vida del proyecto"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "En las organizaciones con estructura de matriz-fuerte es común lo siguiente:",
+          "opciones": [
+            "La gestión del presupuesto es una responsabilidad del sponsor",
+            "La gestión del presupuesto es una responsabilidad del director de proyecto",
+            "La gestión del presupuesto es una responsabilidad del gerente financiero",
+            "La gestión del presupuesto es una responsabilidad del comité de proyecto"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "Entre las características más destacadas de las PMOs podemos distinguir:",
+          "opciones": [
+            "Integra las políticas organizacionales para cumplir objetivos estratégicos",
+            "Es parte de la estructura matricial de la organización",
+            "Está creada fundamentalmente para la gestión de portafolios",
+            "Juega un papel preponderante en la alineación estratégica de los proyectos"
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "pregunta": "Las aristas principales relacionadas con las competencias del Director de Proyectos se relacionan con:",
+          "opciones": [
+            "Los conocimientos, habilidades y comportamiento en el campo específico de la dirección de proyectos",
+            "La gestión de medición y control sobre los elementos de la triple restricción",
+            "El control y medición del proyecto en periodos determinados por la Dirección",
+            "La gestión de negociación y capacidad de administración de recursos que debe tener el director"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Dentro del formulario de negociación se sugieren algunos elementos de apoyo, entre ellos:",
+          "opciones": [
+            "Presupuesto definido del proyecto",
+            "Conocer o inferir objetivos de la contraparte",
+            "Establecer claramente los límites de la negociación",
+            "Asignar un equipo técnico experimentado"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "La organización de consultoría europea (Standish Group) define que para que un proyecto sea exitoso debe contener elementos, tales como:",
+          "opciones": [
+            "Una clara definición de requerimientos y una planeación adecuada",
+            "Estimular las concesiones de cada parte para llegar a un punto de equilibrio",
+            "Establecer un equipo auto-organizado con suficiente experiencia",
+            "Priorizar la interacción con el cliente antes que cualquier documentación"
+          ],
+          "respuestaCorrecta": 0
         }
-
-
 
       ],
       respuestas: [],
