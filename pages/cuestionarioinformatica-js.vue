@@ -38,8 +38,391 @@
 export default {
   data() {
     return {
-      preguntas: [
+      nuevasPreguntas: [
         {
+          "pregunta": "Los pasos para definir el cronograma del proyecto son los siguientes:",
+          "opciones": [
+            "Definir listado de entregables, secuenciar actividades, definir duración de actividades, elaborar cronograma.",
+            "Estimar recursos, definir listado de actividades, definir duración de actividades, secuenciar actividades.",
+            "Definir listado de actividades, secuenciar actividades, estimar recursos, definir duración de actividades, elaborar cronograma.",
+            "Elaborar cronograma, definir listado de actividades, estimar recursos, secuenciar actividades."
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "Un índice de desempeño del costo CPI de 0.89 significa:",
+          "opciones": [
+            "El proyecto está progresando al 89% del ritmo previsto.",
+            "El proyecto está obteniendo 0.89 ctvs de valor por cada dólar gastado.",
+            "Una vez completado el proyecto habremos gastado el 8% más de los planificado",
+            "El proyecto está bajo presupuesto por un 11%."
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes opciones es VERDADERA acerca del desarrollo del acta de constitución del proyecto?",
+          "opciones": [
+            "El acta de constitución del proyecto es aprobada por el equipo del proyecto.",
+            "El director del proyecto aprueba el acta de constitución del proyecto.",
+            "El acta de constitución del proyecto es una entrada para el proceso de planificación.",
+            "El director del proyecto crea el acta de constitución del proyecto y el patrocinador la aprueba."
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "pregunta": "El enunciado del alcance del proyecto es una de las salidas del proceso de “Definicion del Alcance”. Entre otras consideraciones sugiere:",
+          "opciones": [
+            "Dividir el proyecto o entregable principal en fases mas pequeñas para facilitar la administración.",
+            "Establecer los recursos necesarios para cumplir con el alcance.",
+            "Definir el presupuesto necesario para el alcance definido.",
+            "Establecer las restricciones y supuestos del alcance del proyecto."
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Una de las herramientas mas importantes en la creación del EDT es la descomposición en paquetes de trabajo, lo que implica:",
+          "opciones": [
+            "Dividir el proyecto en diferentes fases para su administración.",
+            "Asignar recursos a cada paquete de trabajo definido.",
+            "Estimar el esfuerzo en un determinado nivel.",
+            "Definir los entregables principales del proyecto."
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "Cual de las siguientes es la MEJOR herramienta de dirección de proyectos para usar con el fin de determinar el mayor periodo de tiempo o duración que llevara el proyecto?",
+          "opciones": [
+            "Gráfico de Gantt",
+            "Histograma de recursos",
+            "Diagrama de Red",
+            "Análisis PERT"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "¿Cuánto dura un hito?",
+          "opciones": [
+            "Depende del tamaño del proyecto.",
+            "No tiene duración",
+            "Varía dependiendo de la fase del proyecto.",
+            "Depende de los recursos asignados."
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "Suponga que esta iniciando la planificación de un proyecto en el que se le nombra a usted como Director dada su experiencia anterior. Le han indicado solo los requisitos a alto nivel y al momento dispone de recursos limitados. En este momento, cual tipo de estimación seria la mas indicada.",
+          "opciones": [
+            "Estimación paramétrica",
+            "Estimación análoga",
+            "Estimación ascendente",
+            "Estimación por expertos"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "Cual de las siguientes opciones es CORRECTA en un proyecto en ejecución:",
+          "opciones": [
+            "La ruta crítica ayuda a comprobar cuanto tiempo llevara el proyecto",
+            "La ruta crítica define las dependencias entre las tareas",
+            "Solo puede haber una ruta crítica en un proyecto",
+            "La ruta crítica siempre es la más corta en términos de duración"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "El acta de constitución es un documento formal que reconoce la existencia del proyecto. Este documento confiere las siguientes atribuciones.",
+          "opciones": [
+            "Define los objetivos y entregables del proyecto",
+            "Confiere al director del proyecto la autoridad para asignar recursos de la organización al proyecto",
+            "Establece las restricciones de tiempo, costo y alcance del proyecto",
+            "Define las partes interesadas y sus roles y responsabilidades en el proyecto"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "El juicio de expertos es un_____del proceso de definición del alcance",
+          "opciones": [
+            "Resultado",
+            "Entrada",
+            "Herramienta/técnica",
+            "Criterio"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "Durante una reunión del equipo de proyecto, un miembro del equipo sugiere una mejora para el alcance que va más allá del alcance del acta de constitución del proyecto. El director del proyecto señala que el equipo necesita concentrarse solo en el trabajo solicitado, esto es ejemplo de:",
+          "opciones": [
+            "Gestión de alcance",
+            "Gestión de calidad",
+            "Gestión de riesgos",
+            "Gestión de comunicaciones"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "La evaluación, estructuración y formulación de un proyecto es desde todo punto de vista:",
+          "opciones": [
+            "Una metodología",
+            "Una técnica",
+            "Un proceso",
+            "Una herramienta"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Cuáles son las disciplinas o áreas de conocimiento fundamentales que debe enfrentar ante la estructuración de un proyecto en su concepción:",
+          "opciones": [
+            "Costos, tiempo, alcance",
+            "Calidad, recursos humanos, comunicaciones",
+            "Riesgos, adquisiciones, integración",
+            "Interesados, ciclo de vida, adaptabilidad"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Realizar un análisis amplio de los resultados financieros, económicos y sociales de inversión en un proyecto se dice de:",
+          "opciones": [
+            "Estudio de factibilidad",
+            "Análisis SWOT",
+            "Estudio de mercado",
+            "Análisis de riesgo"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "En el esquema de un proceso de iniciación, el patrocinador se encuentra en:",
+          "opciones": [
+            "Los límites internos del proyecto",
+            "Los límites externos del proyecto",
+            "En el ciclo de vida del grupo de procesos",
+            "En las áreas que corresponden al control del proyecto"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "Un proyecto está plagado de cambios al proyecto de constitución del proyecto. ¿Quién tiene la responsabilidad de decidir si estos cambios son necesarios?",
+          "opciones": [
+            "El director del proyecto",
+            "El equipo del proyecto",
+            "El patrocinador",
+            "Los interesados"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "¿Cuál de los siguientes tipos de dependencia lógica es el más común?",
+          "opciones": [
+            "INICIO-INICIO",
+            "FIN-INICIO",
+            "FIN-FIN",
+            "INICIO-FIN"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "La mecánica de la gestión ágil de proyectos está fundamentada en:",
+          "opciones": [
+            "La agilidad está dada en la experiencia y experticia de los héroes anónimos del proyecto.",
+            "La implementación de técnicas tradicionales de gestión de proyectos.",
+            "La priorización de la documentación sobre la comunicación directa.",
+            "El uso extensivo de software y herramientas de seguimiento de proyectos."
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Si nota que en cada proyecto que usted va a emprender hay ausencia de flexibilidad a cambios, nula capacidad de cambios, deficiente adaptación, pronunciada falta de agilidad; ¿qué debería proponer?",
+          "opciones": [
+            "Utilizar un coctel de metodologías que cubran todos los flancos de riesgo.",
+            "Ignorar las limitaciones y seguir adelante con el proyecto.",
+            "Limitar la interacción con los stakeholders para evitar distracciones.",
+            "Concentrarse solo en la gestión del alcance y evitar cambios."
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "A su juicio, escoja algunas de las opciones que ayudarían al éxito o fracaso de su proyecto.",
+          "opciones": [
+            "Trabajo en equipo, decisiones oportunas, Gestión efectiva con metodologías incorporadas.",
+            "Limitar la comunicación con el equipo, evitar reuniones regulares, no establecer un plan claro.",
+            "Priorizar la documentación extensiva sobre la entrega efectiva del proyecto.",
+            "Evitar la retroalimentación de los stakeholders y seguir adelante sin revisiones."
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Las actividades de integración en la gestión del proyecto son realizadas por:",
+          "opciones": [
+            "El patrocinador",
+            "El director del proyecto",
+            "El equipo del proyecto",
+            "Los interesados"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Durante ¿cuál parte del proceso de dirección de proyectos se crea el enunciado del alcance del proyecto?",
+          "opciones": [
+            "Planificación",
+            "Iniciación",
+            "Ejecución",
+            "Monitoreo y Control"
+          ],
+          "respuestaCorrecta": 0
+        },
+
+        {
+          "pregunta": "Los proyectos con ciclo de vida predictivo tienen la siguiente característica:",
+          "opciones": [
+            "Se adaptan constantemente a los cambios.",
+            "Están orientados a un plan definido.",
+            "No requieren una planificación detallada.",
+            "Se basan en un enfoque ágil."
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "La matriz de procesos para la dirección de proyectos del PMBok se estructura a partir",
+          "opciones": [
+            "La relación entre las fases del proyecto y las áreas de conocimiento.",
+            "La relación entre el ciclo de vida del proyecto y los grupos de procesos.",
+            "La relación entre grupos de procesos y áreas de conocimiento.",
+            "La relación entre los stakeholders y las áreas de conocimiento."
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "Las áreas de gestión de conocimiento del PMBoK está constituido por:",
+          "opciones": [
+            "Un total de 9 áreas",
+            "Un total de 12 áreas",
+            "Un total de 10 áreas",
+            "Un total de 11 áreas"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "El PMBoK Guide es un estándar para la gerencia de proyectos cuya misión es lograr la excelencia mundial en la gerencia de proyectos. Este cuerpo de conocimiento está patrocinado por:",
+          "opciones": [
+            "El Project Management Association",
+            "El Project Management Council",
+            "El Project Management Institute",
+            "El Project Management Consortium"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "Cuál de los siguientes pilares del manifiesto ágil es más valorado en esta guía.",
+          "opciones": [
+            "Individuos e iteraciones.",
+            "Procesos y herramientas.",
+            "Documentación exhaustiva.",
+            "Colaboración con el cliente."
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Una de las principales ventajas de la organización matricial es:",
+          "opciones": [
+            "Mayor flexibilidad en la asignación de recursos.",
+            "Mejorar el control del Project manager sobre los recursos.",
+            "Aumento de la comunicación entre departamentos.",
+            "Mayor autonomía de los equipos de proyecto."
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "En una organización proyectizada el equipo de proyecto:",
+          "opciones": [
+            "Siempre tendrá una posición fija.",
+            "Tendrá una posición rotativa.",
+            "Dependerá directamente del director del proyecto.",
+            "No siempre tendrá una posición fija."
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "pregunta": "Durante que fase del ciclo de vida se crea el presupuesto detallado del proyecto:",
+          "opciones": [
+            "Ejecución",
+            "Iniciación",
+            "Cierre",
+            "Planeamiento"
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "pregunta": "El Acta de constitución se crea durante que fase del ciclo de vida:",
+          "opciones": [
+            "Planeamiento",
+            "Iniciación",
+            "Ejecución",
+            "Cierre"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "El calendario detallado del proyecto solo se puede crear después de haber elaborado:",
+          "opciones": [
+            "El presupuesto del proyecto.",
+            "El análisis de riesgos.",
+            "EDT",
+            "El plan de recursos humanos."
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "La agilidad implica entre otras cosas:",
+          "opciones": [
+            "Un enfoque estricto y poco flexible en la ejecución",
+            "Evitar la interacción y feedback con el cliente",
+            "La adaptabilidad para crear un resultado",
+            "La priorización de documentación extensa en el proyecto"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "pregunta": "El control de procesos que gestiona SCRUM se basa en ciertas teorías reconocidas:",
+          "opciones": [
+            "El conocimiento basado en la experiencia que proporciona la experimentación del proceso",
+            "La gestión basada en jerarquías estrictas y roles rígidos",
+            "El enfoque en la documentación detallada y menos en la colaboración",
+            "La teoría de evitar la adaptabilidad y seguir un proceso estricto"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "El dueño del proceso es un rol de importancia en el esquema SCRUM, bajo su responsabilidad se tiene:",
+          "opciones": [
+            "La organización y facilitación de todas las reuniones SCRUM",
+            "La gestión y seguimiento de producto backlog.",
+            "La resolución de conflictos internos y negociaciones con el cliente",
+            "La codificación y prueba de todas las características del producto"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "Uno de los pilares de SCRUM es la inspección, esta está orientada a lo siguiente en un proyecto:",
+          "opciones": [
+            "Evitar cualquier cambio y seguir el plan inicial",
+            "Evaluar el progreso del trabajo y detectar variaciones",
+            "Evitar la retroalimentación y seguir adelante con el proyecto",
+            "Inspeccionar y criticar el trabajo de cada miembro del equipo"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "pregunta": "Un bloque de tiempo es un evento que tiene algunas características tales como:",
+          "opciones": [
+            "Se pueden extender según las necesidades del equipo",
+            "Tienen una duración fija y no pueden acortarse ni alargarse",
+            "Son flexibles y pueden variar según las necesidades del cliente",
+            "Se utilizan para planificar el tiempo de descanso del equipo"
+          ],
+          "respuestaCorrecta": 1
+        }
+      ],
+      preguntas: [
+      {
           "pregunta": "La estructura conceptual del PMBok contiene lo siguiente",
           "opciones": [
             "Grupo de procesos, normas técnicas, áreas de conocimiento",
@@ -129,6 +512,8 @@ export default {
           ],
           "respuestaCorrecta": 2
         },
+
+
         {
           "pregunta": "Los pasos para definir el cronograma del proyecto son los siguientes:",
           "opciones": [
@@ -230,6 +615,8 @@ export default {
           ],
           "respuestaCorrecta": 3
         },
+
+
         {
           "pregunta": "En el esquema de un proceso de iniciación, el patrocinador se encuentra en:",
           "opciones": [
@@ -290,6 +677,7 @@ export default {
           ],
           "respuestaCorrecta": 3
         },
+
         {
           "pregunta": "Al estar estructurado en torno a un enfoque flexible, esta forma de gestionar implica que:",
           "opciones": [
@@ -333,6 +721,8 @@ export default {
           ],
           "respuestaCorrecta": 3
         },
+
+
         {
           "pregunta": "En el levantamiento de requerimiento de técnicas usaría.",
           "opciones": [
@@ -384,6 +774,8 @@ export default {
           ],
           "respuestaCorrecta": 1
         },
+
+
         {
           "pregunta": "Cual de las siguientes opciones es correcta en un proyecto de ejecución.",
           "opciones": [
@@ -446,6 +838,8 @@ export default {
           ],
           "respuestaCorrecta": 0
         },
+
+
         {
           "pregunta": "Cuál es el principal objetivo de un proyecto de ti",
           "opciones": [
@@ -565,6 +959,9 @@ export default {
   },
   mounted() {
     // ordenar aleatoreamente las preguntas
+    if ( this.$route.query.type === 'nuevas' ) {
+      this.preguntas = this.nuevasPreguntas
+    }
     this.preguntas = this.preguntas.sort(() => Math.random() - 0.5)
   }
 }
