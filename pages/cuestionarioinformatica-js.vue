@@ -38,7 +38,81 @@
 export default {
   data() {
     return {
+      lucho: [
+          {
+            "pregunta": "Entre los principios básicos de la gestión de proyectos está el que se denomina “triple restricción” ¿qué implica?",
+            "opciones": [
+              "La gestión de cronograma y cuadros de Gantt",
+              "La gestión de interesado y stakeholders",
+              "La gestión de cronograma, alcance y tiempo",
+              "La gestión de dirección del PMBOOK"
+            ],
+            "respuestaCorrecta": 2
+          },
+          {
+            "pregunta": "Un principio de cualquier proyecto está dado por sus objetivos. ¿Cuál es el correcto?",
+            "opciones": [
+              "Es fundamental alcanzar la situación deseada propuesta por el proyecto",
+              "Es necesario alcanzar los objetivos de alcance, costo y tiempo",
+              "El proyecto puede ir más allá de la triple restricción hacia la triple restricción ampliada",
+              "El proyecto puede evolucionar gradualmente sobre la operación de la empresa"
+            ],
+            "respuestaCorrecta": 0
+          },
+          {
+            "pregunta": "¿Cuándo es adecuado gestionar un portafolio de proyectos?",
+            "opciones": [
+              "Hay una diversidad de proyectos estratégicos que requieren ser alineados",
+              "Es necesario establecer un balance entre diferentes proyectos de una organización",
+              "Se requiere optimizarlos y lograr beneficios conjuntos",
+              "Los proyectos tienen temporalidad superpuesta"
+            ],
+            "respuestaCorrecta": 0
+          },
+          {
+            "pregunta": "¿Cuál es una característica de los proyectos?",
+            "opciones": [
+              "Por lo general, crean un resultado que tiene temporalidad",
+              "Crean entregables que se repiten y se miden en cada fase del proyecto",
+              "Son respuestas a las necesidades de los stakeholders",
+              "Tienen resultados que se van elaborando progresivamente"
+            ],
+            "respuestaCorrecta": 3
+          },
+          {
+            "pregunta": "Existen diferentes formas de poder a disposición de los directores de proyecto. Una característica de autoridad es el “experto”. ¿Con qué tiene que ver?",
+            "opciones": [
+              "Aquel con control de la distribución de información",
+              "Aquel orientado a recompensa o reconocimiento",
+              "Aquel con respecto ganado con una situación excepcional",
+              "Aquel con información adquirida, experiencia o certificación"
+            ],
+            "respuestaCorrecta": 3
+          },
+          {
+            "pregunta": "¿Cuáles son algunos factores que influyen en la elección de estilo de liderazgo?",
+            "opciones": [
+              "La dirección mediante el poder de la posición",
+              "Personalidad creativa, orientada al servicio y de pensamiento sistémico",
+              "Orientación centrada en la metas y logros para determinar recompensas",
+              "La concentración en el resultado final"
+            ],
+            "respuestaCorrecta": 1
+          },
+          {
+            "pregunta": "Existen algunos factores que contribuyen al éxito de una negociación, ¿cuál de los siguientes NO es uno de ellos?",
+            "opciones": [
+              "La contraparte debe percibir que las concesiones son importantes",
+              "Debe existir continuamente una comunicación eficiente",
+              "Es mejor dejar de lado rápidamente las discusiones que no aportan valor",
+              "Enfocarse en las restricciones conocidas del proyecto"
+            ],
+            "respuestaCorrecta": 3
+          }
+
+      ],
       nuevasPreguntas: [
+
         {
           "pregunta": "Los pasos para definir el cronograma del proyecto son los siguientes:",
           "opciones": [
@@ -69,6 +143,8 @@ export default {
           ],
           "respuestaCorrecta": 3
         },
+
+
         {
           "pregunta": "El enunciado del alcance del proyecto es una de las salidas del proceso de “Definicion del Alcance”. Entre otras consideraciones sugiere:",
           "opciones": [
@@ -149,6 +225,8 @@ export default {
           ],
           "respuestaCorrecta": 2
         },
+
+
         {
           "pregunta": "Durante una reunión del equipo de proyecto, un miembro del equipo sugiere una mejora para el alcance que va más allá del alcance del acta de constitución del proyecto. El director del proyecto señala que el equipo necesita concentrarse solo en el trabajo solicitado, esto es ejemplo de:",
           "opciones": [
@@ -229,6 +307,7 @@ export default {
           ],
           "respuestaCorrecta": 0
         },
+
         {
           "pregunta": "Si nota que en cada proyecto que usted va a emprender hay ausencia de flexibilidad a cambios, nula capacidad de cambios, deficiente adaptación, pronunciada falta de agilidad; ¿qué debería proponer?",
           "opciones": [
@@ -962,6 +1041,10 @@ export default {
     if ( this.$route.query.type === 'nuevas' ) {
       this.preguntas = this.nuevasPreguntas
     }
+    if ( this.$route.query.type === 'lucho' ) {
+      this.preguntas = this.lucho
+    }
+
     this.preguntas = this.preguntas.sort(() => Math.random() - 0.5)
   }
 }
